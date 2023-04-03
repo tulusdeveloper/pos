@@ -21,6 +21,25 @@
         <span class="sr-only">Toggle navigation</span>
       </a>
     <!-- User Profile -->
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        <li class="dropdown user user-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <img src="views/img/users/default/images.jpg" class="user-image">
+            <span class="hidden-xs">Admin User</span>
+          </a>
+          <!-- Dropdown-toggle -->
+          <ul class="dropdown-menu">
+            <li class="user-body">
+              <div class="pull-right">
+                <a href="" class="btn btn-default btn-flat">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
   </nav>
 
 
